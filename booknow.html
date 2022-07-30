@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>form</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+  <!--LOGO FONT-->
+  <script src="https://kit.fontawesome.com/58f94d4e4b.js"crossorigin="anonymous"></script>
+    <body>
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/apple-touch-icon.png" alt="" class="paymentimage" >
+              </a>
+  
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+        
+   
+        <div class="row" id="paymentgateway">
+            <div class="col-75">
+              <div class="container">
+                <form action="" >
+          
+                  <div class="row">
+                    <div class="col-50">
+                      <h3>Billing Details</h3>
+                      <label for="fname"><i class="fa fa-user" aria-required="true"></i> Full Name</label>
+                      <input type="text" id="fname" name="firstname" required placeholder="Kelvin G. obot">
+                      <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                      <input type="text" id="email" name="email" required placeholder="Kelvin@example.com">
+                      <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                      <input type="text" id="adr" name="address" required placeholder="542 W. 15th Street">
+                      <label for="country">Room Choice</label>
+                      <select id="country" name="" required>
+                        <option value="Select A room type"></option>
+                        <option value="australia">Junior Suite</option>
+                        <option value="australia">Twin Deluxe</option>
+                        <option value="canada">Ambassadorial Suite</option>
+                        <option value="usa">Presidential Suite</option>
+                      </select>
+                      
+          
+                      <div class="row">
+                        
+                      </div>
+                    </div>
+          
+                    <div class="col-50">
+                      <h3>Payment</h3>
+                      <label for="fname">Accepted Cards</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                      </div>
+                      <label for="cname">Name on Card</label>
+                      <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                      <label for="ccnum">Credit card number</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <label for="expmonth">Exp Month</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="September">
+          
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="expyear">Exp Year</label>
+                          <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv">CVV</label>
+                          <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <label>
+                    <input type="checkbox" required name="sameadr"> Agree to Terms & Conditions
+                  </label>
+                  <a href="thankyoupage.html" >
+                  <input  value="Continue to checkout" class="btn btn-lg btn-block btn-primary">
+                </a>
+                </form>
+              </div>
+            </div>
+          
+           
+                
+              </div>
+            </div>
+          </div>
+          <section>
+            <div class="room">
+      
+            </div>
+          </section>
+          <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"crossorigin="anonymous"></script>
+  <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"crossorigin="anonymous"></script>
+    </body>

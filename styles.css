@@ -1,0 +1,160 @@
+#pricing {
+  position: relative;
+  text-align: center;
+  padding: 80px;
+}
+.contact {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#logo {
+  width: 220px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.travel {
+  position: relative;
+  font-family: "Cormorant SC", serif;
+  font-size: 60px;
+}
+.mint {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100px;
+  position: fixed;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form {
+  position: relative;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.kpop {
+  background-color: #45a049;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.kpop:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo-booknowpage {
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 190px;
+}
+#paymentgateway {
+  padding-top: 20px;
+}
+.container-fluid {
+  padding: 0;
+  padding-top: 0;
+}
+.paymentimage {
+  width: 70px;
+}
+#checkbox {
+  color: #1f4690;
+  font-size: 100px;
+  padding-top: 120px;
+}
+.submission {
+  font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+}

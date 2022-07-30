@@ -1,0 +1,167 @@
+.nav-bar {
+  padding: 1.5rem;
+  width: 90%;
+  border-color: black;
+}
+.container-fluid {
+  padding: 0 5%;
+}
+.stylee {
+  font-family: "Calligraffitti", cursive;
+}
+.milton {
+  border-top: 1px solid white;
+  border-left: 2px solid white;
+
+  width: 500px;
+  height: 190px;
+  text-align: center;
+  text-align: center;
+  position: relative;
+  padding-top: 3rem;
+  font-family: "Cormorant SC", serif;
+  margin: auto;
+}
+
+.line {
+  width: 500px;
+  height: 140px;
+  position: relative;
+
+  border-top: 1px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  text-align: center;
+}
+.kelvin {
+  font-family: "Rouge Script", cursive;
+  font-size: 40px;
+  color: white;
+  position: relative;
+  left: 110px;
+}
+.miltonn {
+  font-size: 55px;
+  word-spacing: 1rem;
+}
+
+.carousel {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+.pricing-row {
+  text-align: center;
+}
+#pricing {
+  text-align: center;
+  padding: 80px;
+}
+
+.dave {
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-size: 40px;
+}
+#button {
+  position: absolute;
+  right: 1.5rem;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+#body {
+  padding: 3rem;
+}
+#html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*slideshow styles*/
+
+.slideshow {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.item {
+  display: flex;
+  width: 800px;
+  align-items: center;
+}
+
+.slideshow-container {
+  width: 2400px;
+  transition: 1s ease infinite;
+  display: flex;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  animation: slide 24s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  37.5% {
+    transform: translateX(-33.333%);
+  }
+  62.5% {
+    transform: translateX(-33.333%);
+  }
+  75% {
+    transform: translateX(-66.667%);
+  }
+  99% {
+    transform: translateX(-66.667%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.item img {
+  width: 98%;
+}
+
+.item .caption {
+  width: 50%;
+}
+#stirfry {
+  font-size: 290px;
+}
+.room {
+  font-size: 900px;
+  text-align: left;
+  padding-top: 140px;
+  padding-left: 60px;
+}
+.trip {
+  font-family: "Cormorant SC", serif;
+  font-size: 4.2rem;
+}
+.best {
+  font-family: "Pinyon Script", cursive;
+  font-size: 3.5rem;
+}
